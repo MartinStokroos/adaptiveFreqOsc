@@ -10,10 +10,12 @@ The included Matlab script file *adaptive_Hopf.m* was used for the development o
 f0=10.0Hz and finput=12.5Hz.
 
 ![Fig. 1. ](figures/fig_1.jpg  "Oscillator output as function of time.")
+
 In Fig. 1 the input stimulus appears at t=2.5s. The output slowly converges to 12.5Hz. At t=7.5s, the input is turned off again.
 
 ![ Fig. 2.](figures/fig_2.jpg  "Output frequency as function of time.")
-Turning off the input at t=7.5s is happening just before the moment that the oscillator is completely converged to 12.5Hz. The last frequency value stays encoded in the oscillator.
+
+Turning off the input at t=7.5s, is happening just before the moment that the oscillator is converged to 12.5Hz. The last frequency stays encoded in the oscillator.
 
 References:
 [1] A.J.Ijspeert, Adaptive Frequency Oscillators, [https://biorob.epfl.ch/cms/page-36365.html](https://biorob.epfl.ch/cms/page-36365.html) 
