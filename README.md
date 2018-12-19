@@ -4,9 +4,9 @@ The *adaptiveFreqOsc* project for Arduino is a fascinating example of a self lea
 Ijspeert[1] presented a Hopf frequency oscillator and added an extra state variable to it, that forces the oscillator to follow any periodic input signal. In other words, this type of oscillator can adapt its parameters to learn the frequency of any periodic input signal. The Arduino sketch presented here, is an example of a practical implementation of such oscillator.
 The model from Ijspeert was discretized first, to make it run on the Arduino at a sampling frequency of 1kHz. The implications of the discretization are, that the oscillator will not synchronize to *any* periodic input signal. The sampling frequency should be taken into account.
 
-The larger the frequency difference between the current output and the input of the oscillator, the longer it will take for the oscillator to converge to the desired frequency of the input signal. First, try the oscillator learning with only a few Hz difference between output and input and play with the parameter values for Epsilon, gamma and mu. Try to take the input signal away and the last offered input frequency will stay encoded in the system.
+The larger the frequency difference between the current output and the input of the oscillator, the longer it will take for the oscillator to converge to the desired input frequency. First, try the oscillator learning with only a few Hz difference between output and input and play with the parameter values for Epsilon, gamma and mu. After converging, take the input signal away and the last offered input frequency will stay encoded in the system.
 
-The included Matlab script file *adaptive_Hopf.m* was used for the development of the C-code for Arduino and it could be used to tune the oscillator parameters. Figs. 1 and 2 are the result of a simulation with: Epsilon=15.0, gamma=100.0 and mu=1.0.
+The included Matlab script file *adaptive_Hopf.m* was used for the development of the C-code for the Arduino. The script can be used to tune the oscillator parameters first. Figs. 1 and 2 are the result of a simulation with: Epsilon=15.0, gamma=100.0 and mu=1.0.
 f0=10.0Hz and finput=12.5Hz.
 
 ![Fig. 1. ](figures/fig_1.jpg  "Oscillator output as function of time.")
