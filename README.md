@@ -1,4 +1,4 @@
-# An Adaptive Frequency Oscillator example with the Arduino
+# An Adaptive Frequency Oscillator example for Arduino
 
 The *adaptiveFreqOsc* project for Arduino is a fascinating example of a self learning algorithm.
 Ijspeert[1] presented a Hopf frequency oscillator and added an extra state variable to it, that forces the oscillator to follow any periodic input signal. In other words, this type of oscillator can adapt its parameters to learn the frequency of the periodic input signal. The Arduino sketch presented here, is an example of a practical implementation of such oscillator.
