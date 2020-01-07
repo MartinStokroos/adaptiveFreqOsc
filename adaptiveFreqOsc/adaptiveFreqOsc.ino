@@ -9,8 +9,8 @@
 * License: MIT License
 *
 * This adaptive Hopf frequency oscillator synchronizes to the periodic input signal applied to the analog
-* input pin, defined by AI_PIN. The periodic drive signal should be biased with 2.5VDC for the ADC and
-* the amplitude of the drive signal is limited to 2.5V. Without drive signal (but with DC-bias), the
+* input pin, defined with 'AI_PIN'. The periodic input signal should be biased on 2.5V DC for the ADC and
+* the amplitude of the drive signal should be limited to 2.5V. Without drive signal (but with DC-bias), the
 * oscillator starts outputting the intrinsic frequency, preprogrammed with the variable 'ohm'.
 *
 * The oscillator output pin, defined by PWM_OUT, has a PWM frequency of about 31kHz. Use a low-pass filter
