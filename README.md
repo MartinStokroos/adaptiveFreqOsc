@@ -18,4 +18,4 @@ In Fig. 1 the input stimulus appears at t=2.5s. The output slowly converges towa
 Turning off the input at t=7.5s, happens just before the moment that the oscillator is exactly converged to 12.5Hz. The last input frequency stays encoded in the oscillator.
 
 References:
-[1] A.J.Ijspeert, Adaptive Frequency Oscillators, [https://biorob.epfl.ch/research/research-dynamical/page-36365-en-html](https://biorob.epfl.ch/research/research-dynamical/page-36365-en-html) 
+[1] A.J.Ijspeert, Adaptive Frequency Oscillators, [https://www.epfl.ch/labs/biorob/research/neuromechanical/page-36365-en-html](https://www.epfl.ch/labs/biorob/research/neuromechanical/page-36365-en-html) 
