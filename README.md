@@ -10,7 +10,7 @@ The included Matlab script file *adaptive_Hopf.m* was used for the development o
 
 ![Fig. 1. ](figures/fig_1.jpg  "Oscillator output as function of time")
 
-In Fig. 1 the input stimulus appears at t=0.3s. The output slowly converges towards 10.1Hz. At t=2.7s the input is turned off again. output I is the in-phase output and output Q the quadrature output. Fig. 2 shows the output frequency as function of time.
+In Fig. 1 the input stimulus appears at t=0.3s. The output slowly converges towards 10.1Hz. At t=2.7s the input is turned off again. Output I is the in-phase output and output Q the quadrature output. Fig. 2 shows the output frequency as function of time.
 
 ![ Fig. 2.](figures/fig_2.jpg  "Output frequency as function of time")
 
@@ -20,7 +20,7 @@ Arduino sketch *adaptiveFreqOsc1* runs at 1kHz. The intrinsic frequency is set t
 
 Arduino sketch *adaptiveFreqOsc2* runs at 3kHz. The intrinsic frequency is set to 10Hz.
 
-Using higher loop rates on a faster processor, makes higher output frequencies and a faster response possible.
+Using higher loop rates on a faster processor, makes higher output frequencies and a faster locking response possible. The higher the sample frequency compared to the output frequency, the higher the  frequency capture range will be.
 
 ## References
 
