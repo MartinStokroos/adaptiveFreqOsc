@@ -20,7 +20,7 @@ Arduino sketch *adaptiveFreqOsc1* runs at 1kHz. The intrinsic frequency is set t
 
 Arduino sketch *adaptiveFreqOsc2* runs at 3kHz. The intrinsic frequency is set to 10Hz.
 
-Using higher loop rates on a faster processor, makes higher output frequencies and a faster locking response possible. The higher the sample frequency compared to the output frequency, the higher the  frequency capture range will be.
+A higher loop rate on a faster processor makes higher output frequencies and a faster locking response possible. The higher the sample frequency is relative to the output frequency, the higher the frequency capture range will be.
 
 ## References
 
