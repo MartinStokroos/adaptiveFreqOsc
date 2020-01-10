@@ -1,8 +1,7 @@
 /*
-*
-* File: adaptiveFreqOsc.ino
+* File: adaptiveFreqOsc1.ino
 * Purpose: Adaptive Frequency Oscillator Demo
-* Version: 1.0.0
+* Version: 1.0.1
 * Date: 18-12-2018
 * Created by: Martin Stokroos
 * URL: https://github.com/MartinStokroos/adaptiveFreqOsc
@@ -46,7 +45,7 @@ float x_d = 0;
 float y = 0;
 float y_new = 0;
 float y_d = 0;
-float ohm = 2*PI; //intrinsic frequency, 1Hz
+float ohm = 2*PI; //intrinsic frequency = 1Hz
 float ohm_new = 0;
 float ohm_d = 0;
 float F=0;
