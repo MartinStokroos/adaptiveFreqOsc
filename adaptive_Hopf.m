@@ -3,11 +3,11 @@
 % Version: 1.1.0
 % Date: 10-01-2020
 % Created by: Martin Stokroos
-% URL: https://www.epfl.ch/labs/biorob/research/neuromechanical/page-36365-en-html
+% URL: https://github.com/MartinStokroos/adaptiveFreqOsc
 % License: MIT License
 
 % The adaptive Hopf frequency oscillator model was taken from:
-% A.J.Ijspeert, Adaptive Frequency Oscillators, https://biorob.epfl.ch/cms/page-36365.html.
+% A.J.Ijspeert, Adaptive Frequency Oscillators, URL: https://www.epfl.ch/labs/biorob/research/neuromechanical/page-36365-en-html
 %
 % This m-file is not an example of efficient matlab programming. It was written with the purpose to develop C-code.
 
